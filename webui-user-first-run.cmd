@@ -4,7 +4,7 @@ echo Unpacking Git and Python... & mkdir tmp & start /wait git_python.part01.exe
 
 set path=git\cmd
 git init .
-git remote add origin https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+git remote add origin https://github.com/Zifkan/stable-diffusion-webui.git
 git pull origin master
 
 del webui-user.bat
